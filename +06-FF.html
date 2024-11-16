@@ -10,6 +10,28 @@ mark {background-color: lightgrey; color: black;}
 .gr {hyphens: auto; word-wrap: break-word; text-align: justify;}
 .num {font-size: small; vertical-align: top;}
 </style>
+<script>
+document.fonts.ready.then(() => {
+  if (document.fonts.check('16px "Fira Sans Condensed"')) {
+    console.log('Шрифт "Fira Sans Condensed" загружен');
+  } else {
+    console.log('Шрифт "Fira Sans Condensed" не загружен');
+  }
+}).catch(() => {
+  console.log('Ошибка при проверке шрифтов');
+});
+</script>
+<script>
+document.fonts.ready.then(() => {
+  if (document.fonts.check('16px "MathJax_Main"')) {
+    console.log('Шрифт "MathJax_Main" загружен');
+  } else {
+    console.log('Шрифт "MathJax_Main" не загружен');
+  }
+}).catch(() => {
+  console.log('Ошибка при проверке шрифтов');
+});
+</script>
 </head>
 <body>
 
