@@ -1,20 +1,43 @@
 <!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8" /><script>window.MathJax = {tex: {inlineMath: [['\\(', '\\)']], macros: {frac: ["\\genfrac{}{}{}{}{\\textstyle #1}{\\textstyle #2}", 2]}}, options: {renderActions: { addMenu: [] }}};</script><script src="mathjax/es5/tex-mml-chtml.js"></script><script>MathJax.startup.promise.then(() => {const script = document.createElement('script'); script.src = "https://unpkg.com/pagedjs/dist/paged.polyfill.js"; document.head.appendChild(script);}).catch(() => {});</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
-@font-face {font-family: 'MathJax_Main', serif; src: url('https://closdelaroche.github.io/teach//fonts/MathJax_Main-Regular.otf') format('opentype');}
+@font-face {font-family: 'MathJax_Main', serif; src: url('https://closdelaroche.github.io/teach/fonts/MathJax_Main-Regular.otf') format('opentype');}
 body {font-family: 'MathJax_Main', serif; font-size:20px;}
 p {display: inline-block; flex-wrap: wrap; box-sizing: border-box; border: 1px solid grey; width: 100%; line-height: 1; margin-bottom: 2px; margin-top: 2px; padding-top: 4px; padding-bottom: 4px; padding-left: 4px; padding-right: 2px;}
 mark {background-color: lightgrey; color: black;}
+.num {font-size: small; vertical-align: top;}
+.gr {display: inline-block; flex-wrap: wrap; box-sizing: border-box; border: 1px solid grey; width: 100%; line-height: 1; margin-bottom: 2px; margin-top: 2px; padding-top: 4px; padding-bottom: 4px; padding-left: 4px; padding-right: 2px; hyphens: auto; word-wrap: break-word; text-align: center; text-align: justify;}
 @page {size: A4; margin: 10mm; margin-bottom: 15mm; border: solid green 2px ; /*outline: solid red 2px;*/ @bottom-right {content: "огэ. математика. задание №06 стр. " counter(page, decimal-leading-zero); font-family: 'Fira Sans Condensed',sans-serif; font-size: 16px; font-weight: 300;}}
 .col2 {width: 714px; height: 988px; column-count: 2; column-gap: 3px; /*border: solid black 2px;*/}
-.gr {hyphens: auto; word-wrap: break-word; text-align: justify;}
-.num {font-size: small; vertical-align: top;}
 </style>
+<script>
+document.fonts.ready.then(() => {
+  if (document.fonts.check('16px "Fira Sans Condensed"')) {
+    console.log('Шрифт "Fira Sans Condensed" загружен');
+  } else {
+    console.log('Шрифт "Fira Sans Condensed" не загружен');
+  }
+}).catch(() => {
+  console.log('Ошибка при проверке шрифтов');
+});
+</script>
+<script>
+document.fonts.ready.then(() => {
+  if (document.fonts.check('16px "MathJax_Main"')) {
+    console.log('Шрифт "MathJax_Main" загружен');
+  } else {
+    console.log('Шрифт "MathJax_Main" не загружен');
+  }
+}).catch(() => {
+  console.log('Ошибка при проверке шрифтов');
+});
+</script>
 </head>
 <body>
 
-<!--GR--><p class="gr" style="text-align: center;">Найдите значение выражения.</p>
+<!--GR--><div class="gr">Найдите значение выражения.</div>
 <div class="col2">
+
 <!--56-8 4C4EBF--><p><span class="num"><mark>01</mark></span>
 \(5,6+9,7\)
 <br>
