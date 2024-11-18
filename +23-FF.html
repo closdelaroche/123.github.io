@@ -1,18 +1,20 @@
 <!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8" /><script>window.MathJax = {tex: {inlineMath: [['\\(', '\\)']], macros: {frac: ["\\genfrac{}{}{}{}{\\textstyle #1}{\\textstyle #2}", 2]}}, options: {renderActions: { addMenu: [] }}};</script><script src="mathjax/es5/tex-mml-chtml.js"></script><script>MathJax.startup.promise.then(() => {const script = document.createElement('script'); script.src = "https://unpkg.com/pagedjs/dist/paged.polyfill.js"; document.head.appendChild(script);}).catch(() => {});</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
-@font-face {font-family: 'MathJax_Main'; src: url('https://closdelaroche.github.io/MathJax_Main-Regular.OTF') format('opentype');}
+@font-face {font-family: 'MathJax_Main', serif; src: url('https://closdelaroche.github.io/teach/fonts/MathJax_Main-Regular.otf') format('opentype');}
+@page {size: A4; margin: 10mm; margin-bottom: 15mm; /*border: solid green 2px;*/ @bottom-right {content: "огэ. математика. задание №23 стр. " counter(page, decimal-leading-zero); font-family: 'Fira Sans Condensed',sans-serif; font-size: 16px; font-weight: 300;}}
 body {font-family: 'MathJax_Main', serif; font-size:20px;}
 p {display: inline-block; flex-wrap: wrap; box-sizing: border-box; border: 1px solid grey; width: 100%; line-height: 1; margin-bottom: 2px; margin-top: 2px; padding-top: 4px; padding-bottom: 4px; padding-left: 4px; padding-right: 2px;}
 mark {background-color: lightgrey; color: black;}
-@page {size: A4; margin: 10mm; margin-bottom: 15mm; /*border: 1px solid green;*/ /*outline: 1px solid red*/; @bottom-right {content: "огэ. математика. задание №23 стр. " counter(page, decimal-leading-zero); font-family: 'Fira Sans Condensed',sans-serif; font-size: 16px; font-weight: 300;}}
-.col5 {width: 718px; height: 68px; column-count: 5; column-gap:3px; /*outline: solid black 2px;*/}
-.gr {hyphens: auto; word-wrap: break-word; text-align: justify;}
 .num {font-size: small; vertical-align: top;}
+.gr {width: 714px; hyphens: auto; word-wrap: break-word; text-align: justify;}
+.col5 {width: 714px; /*height: 68px;*/ column-count: 5; column-gap:3px; /*outline: solid black 2px;*/}
 </style>
 </head>
 <body>
-<!--GR--><p class="gr">Биссектриса угла <mark>A</mark> параллелограмма <mark>ABCD</mark> пересекает сторону <mark>BC</mark> в точке <mark>K</mark>. Найдите периметр параллелограмма, если <mark>BK</mark> = (<mark>...</mark>), <mark>CK</mark> = (<mark>...</mark>).</p>
+
+
+<p class="gr">Биссектриса угла <mark>A</mark> параллелограмма <mark>ABCD</mark> пересекает сторону <mark>BC</mark> в точке <mark>K</mark>. Найдите периметр параллелограмма, если <mark>BK</mark> = (<mark>...</mark>), <mark>CK</mark> = (<mark>...</mark>).</p>
 <div class="col5">
 <!--223-1 CF5F48--><p><span class="num"><mark>01</mark></span>
 7; 12
@@ -45,7 +47,7 @@ mark {background-color: lightgrey; color: black;}
 4; 19
 </p>
 </div>
-<!--GR--><p class="gr">Найдите боковую сторону <mark>AB</mark> трапеции <mark>ABCD</mark>, если углы <mark>ABC</mark> и <mark>BCD</mark> равны соответственно (<mark>...</mark>)\(^{\circ}\) и (<mark>...</mark>)\(^{\circ}\), а <mark>CD</mark> = (<mark>...</mark>).</p>
+<p class="gr">Найдите боковую сторону <mark>AB</mark> трапеции <mark>ABCD</mark>, если углы <mark>ABC</mark> и <mark>BCD</mark> равны соответственно (<mark>...</mark>)\(^{\circ}\) и (<mark>...</mark>)\(^{\circ}\), а <mark>CD</mark> = (<mark>...</mark>).</p>
 <div class="col5">
 <!--223-2 92214F--><p><span class="num"><mark>01</mark></span>
 30; 120; 25
@@ -78,7 +80,7 @@ mark {background-color: lightgrey; color: black;}
 60; 150; 33
 </p>
 </div>
-<!--GR--><p class="gr">Прямая, параллельная основаниям трапеции <mark>ABCD</mark>, пересекает её боковые стороны <mark>AB</mark> и <mark>CD</mark> в точках <mark>E</mark> и <mark>F</mark> соответственно. Найдите длину отрезка <mark>EF</mark>, если <mark>AD</mark> = (<mark>...</mark>), <mark>BC</mark> = (<mark>...</mark>), <mark>CF:DF</mark> = (<mark>...</mark>)</p>
+<p class="gr">Прямая, параллельная основаниям трапеции <mark>ABCD</mark>, пересекает её боковые стороны <mark>AB</mark> и <mark>CD</mark> в точках <mark>E</mark> и <mark>F</mark> соответственно. Найдите длину отрезка <mark>EF</mark>, если <mark>AD</mark> = (<mark>...</mark>), <mark>BC</mark> = (<mark>...</mark>), <mark>CF:DF</mark> = (<mark>...</mark>)</p>
 <div class="col5">
 <!--254-4 B53A99--><p><span class="num"><mark>01</mark></span>
 36; 18; 7:2
@@ -111,7 +113,7 @@ mark {background-color: lightgrey; color: black;}
 35; 21; 5:2
 </p>
 </div>
-<!--GR--><p class="gr">Прямая, параллельная стороне <mark>AC</mark> треугольника <mark>ABC</mark>, пересекает стороны <mark>AB</mark> и <mark>BC</mark> в точках <mark>M</mark> и <mark>N</mark> соответственно. Найдите <mark>BN</mark>, если <mark>MN</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>), <mark>NC</mark> = (<mark>...</mark>)</p>
+<p class="gr">Прямая, параллельная стороне <mark>AC</mark> треугольника <mark>ABC</mark>, пересекает стороны <mark>AB</mark> и <mark>BC</mark> в точках <mark>M</mark> и <mark>N</mark> соответственно. Найдите <mark>BN</mark>, если <mark>MN</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>), <mark>NC</mark> = (<mark>...</mark>)</p>
 <div class="col5">
 <!--250-8 740FCC--><p><span class="num"><mark>01</mark></span>
 11; 44; 18
@@ -144,7 +146,7 @@ mark {background-color: lightgrey; color: black;}
 15; 25; 22
 </p>
 </div>
-<!--GR--><p class="gr">Высота <mark>AH</mark> ромба <mark>ABCD</mark> делит сторону <mark>CD</mark> на отрезки <mark>DH</mark> = (<mark>...</mark>) и <mark>CH</mark> = (<mark>...</mark>) Найдите высоту ромба.</p>
+<p class="gr">Высота <mark>AH</mark> ромба <mark>ABCD</mark> делит сторону <mark>CD</mark> на отрезки <mark>DH</mark> = (<mark>...</mark>) и <mark>CH</mark> = (<mark>...</mark>) Найдите высоту ромба.</p>
 <div class="col5">
 <!--267-9 F80C88--><p><span class="num"><mark>01</mark></span>
 20; 5
@@ -177,7 +179,7 @@ mark {background-color: lightgrey; color: black;}
 24; 1
 </p>
 </div>
-<!--GR--><p class="gr">Окружность пересекает стороны <mark>AB</mark> и <mark>AC</mark> треугольника <mark>ABC</mark> в точках <mark>K</mark> и <mark>P</mark> соответственно и проходит через вершины <mark>B</mark> и <mark>C</mark>. Найдите длину отрезка <mark>KP</mark>, если <mark>AK</mark> = (<mark>...</mark>), а сторона <mark>AC</mark> в (<mark>...</mark>) раза больше стороны <mark>BC</mark>.</p>
+<p class="gr">Окружность пересекает стороны <mark>AB</mark> и <mark>AC</mark> треугольника <mark>ABC</mark> в точках <mark>K</mark> и <mark>P</mark> соответственно и проходит через вершины <mark>B</mark> и <mark>C</mark>. Найдите длину отрезка <mark>KP</mark>, если <mark>AK</mark> = (<mark>...</mark>), а сторона <mark>AC</mark> в (<mark>...</mark>) раза больше стороны <mark>BC</mark>.</p>
 <div class="col5">
 <!--232-4 23F177--><p><span class="num"><mark>01</mark></span>
 14; 2
@@ -210,7 +212,7 @@ mark {background-color: lightgrey; color: black;}
 18; 1,2
 </p>
 </div>
-<!--GR--><p class="gr">Отрезки <mark>AB</mark> и <mark>DC</mark> лежат на параллельных прямых, а отрезки <mark>AC</mark> и <mark>BD</mark> пересекаются в точке <mark>M</mark>. Найдите <mark>MC</mark>, если <mark>AB</mark> = (<mark>...</mark>), <mark>DC</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>)</p>
+<p class="gr">Отрезки <mark>AB</mark> и <mark>DC</mark> лежат на параллельных прямых, а отрезки <mark>AC</mark> и <mark>BD</mark> пересекаются в точке <mark>M</mark>. Найдите <mark>MC</mark>, если <mark>AB</mark> = (<mark>...</mark>), <mark>DC</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>)</p>
 <div class="col5">
 <!--221-8 2DD84F--><p><span class="num"><mark>01</mark></span>
 16; 24; 25
@@ -243,8 +245,8 @@ mark {background-color: lightgrey; color: black;}
 13; 65; 42
 </p>
 </div>
-<!--GR--><p class="gr">Катет и гипотенуза прямоугольного треугольника равны (<mark>...</mark>) и (<mark>...</mark>) . Найдите высоту, проведённую к гипотенузе.</p>
-<div class="col5" style="height: 36px;">
+<p class="gr">Катет и гипотенуза прямоугольного треугольника равны (<mark>...</mark>) и (<mark>...</mark>) . Найдите высоту, проведённую к гипотенузе.</p>
+<div class="col5">
 <!--242-2 E08426--><p><span class="num"><mark>01</mark></span>
 24; 51
 </p>
@@ -268,7 +270,7 @@ mark {background-color: lightgrey; color: black;}
 <div style="break-before: column;"></div>
 
 
-<!--GR--><p class="gr">Расстояние от точки пересечения диагоналей ромба до одной из его сторон равно (<mark>...</mark>), а одна из диагоналей ромба равна (<mark>...</mark>) Найдите углы ромба.</p>
+<p class="gr">Расстояние от точки пересечения диагоналей ромба до одной из его сторон равно (<mark>...</mark>), а одна из диагоналей ромба равна (<mark>...</mark>) Найдите углы ромба.</p>
 <div class="col5">
 <!--263-9 40D431--><p><span class="num"><mark>01</mark></span>
 11; 44
@@ -301,7 +303,7 @@ mark {background-color: lightgrey; color: black;}
 19; 76
 </p>
 </div>
-<!--GR--><p class="gr">Биссектрисы углов <mark>A</mark> и <mark>B</mark> параллелограмма <mark>ABCD</mark> пересекаются в точке <mark>K</mark>. Найдите площадь параллелограмма, если <mark>BC</mark> = (<mark>...</mark>), а расстояние от точки <mark>K</mark> до стороны <mark>AB</mark> равно (<mark>...</mark>)</p>
+<p class="gr">Биссектрисы углов <mark>A</mark> и <mark>B</mark> параллелограмма <mark>ABCD</mark> пересекаются в точке <mark>K</mark>. Найдите площадь параллелограмма, если <mark>BC</mark> = (<mark>...</mark>), а расстояние от точки <mark>K</mark> до стороны <mark>AB</mark> равно (<mark>...</mark>)</p>
 <div class="col5">
 <!--271-7 A7594E--><p><span class="num"><mark>01</mark></span>
 2; 1
@@ -334,7 +336,7 @@ mark {background-color: lightgrey; color: black;}
 12; 9
 </p>
 </div>
-<!--GR--><p class="gr">Биссектрисы углов <mark>A</mark> и <mark>B</mark> при боковой стороне <mark>AB</mark> трапеции <mark>ABCD</mark> пересекаются в точке <mark>F</mark>. Найдите <mark>AB</mark>, если <mark>AF</mark> = (<mark>...</mark>), <mark>BF</mark> = (<mark>...</mark>)</p>
+<p class="gr">Биссектрисы углов <mark>A</mark> и <mark>B</mark> при боковой стороне <mark>AB</mark> трапеции <mark>ABCD</mark> пересекаются в точке <mark>F</mark>. Найдите <mark>AB</mark>, если <mark>AF</mark> = (<mark>...</mark>), <mark>BF</mark> = (<mark>...</mark>)</p>
 <div class="col5">
 <!--247-8 6AD95A--><p><span class="num"><mark>01</mark></span>
 24; 10
@@ -367,7 +369,7 @@ mark {background-color: lightgrey; color: black;}
 12; 9
 </p>
 </div>
-<!--GR--><p class="gr">Точка <mark>H</mark> является основанием высоты <mark>BH</mark>, проведённой из вершины прямого угла <mark>B</mark> прямоугольного треугольника <mark>ABC</mark>. Окружность с диаметром <mark>BH</mark> пересекает стороны <mark>AB</mark> и <mark>CB</mark> в точках <mark>P</mark> и <mark>K</mark> соответственно. Найдите <mark>PK</mark>, если <mark>BH</mark> = (<mark>...</mark>)</p>
+<p class="gr">Точка <mark>H</mark> является основанием высоты <mark>BH</mark>, проведённой из вершины прямого угла <mark>B</mark> прямоугольного треугольника <mark>ABC</mark>. Окружность с диаметром <mark>BH</mark> пересекает стороны <mark>AB</mark> и <mark>CB</mark> в точках <mark>P</mark> и <mark>K</mark> соответственно. Найдите <mark>PK</mark>, если <mark>BH</mark> = (<mark>...</mark>)</p>
 <div class="col5">
 <!--221-9 2E1F4A--><p><span class="num"><mark>01</mark></span>
 13
@@ -400,7 +402,7 @@ mark {background-color: lightgrey; color: black;}
 11
 </p>
 </div>
-<!--GR--><p class="gr">Точка <mark>H</mark> является основанием высоты, проведённой из вершины прямого угла <mark>B</mark> треугольника <mark>ABC</mark> к гипотенузе <mark>AC</mark>. Найдите <mark>AB</mark>, если <mark>AH</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>)</p>
+<p class="gr">Точка <mark>H</mark> является основанием высоты, проведённой из вершины прямого угла <mark>B</mark> треугольника <mark>ABC</mark> к гипотенузе <mark>AC</mark>. Найдите <mark>AB</mark>, если <mark>AH</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>)</p>
 <div class="col5">
 <!--253-7 F50997--><p><span class="num"><mark>01</mark></span>
 3; 27
@@ -433,7 +435,7 @@ mark {background-color: lightgrey; color: black;}
 6; 24
 </p>
 </div>
-<!--GR--><p class="gr">Углы <mark>B</mark> и <mark>C</mark> треугольника <mark>ABC</mark> равны соответственно (<mark>...</mark>)\(^{\circ}\) и (<mark>...</mark>)\(^{\circ}\). Найдите <mark>BC</mark>, если радиус окружности, описанной около треугольника <mark>ABC</mark>, равен (<mark>...</mark>)</p>
+<p class="gr">Углы <mark>B</mark> и <mark>C</mark> треугольника <mark>ABC</mark> равны соответственно (<mark>...</mark>)\(^{\circ}\) и (<mark>...</mark>)\(^{\circ}\). Найдите <mark>BC</mark>, если радиус окружности, описанной около треугольника <mark>ABC</mark>, равен (<mark>...</mark>)</p>
 <div class="col5">
 <!--257-9 18FAEE--><p><span class="num"><mark>01</mark></span>
 64; 86; 13
@@ -466,8 +468,8 @@ mark {background-color: lightgrey; color: black;}
 63; 87; 11
 </p>
 </div>
-<!--GR--><p class="gr">Окружность с центром на стороне <mark>AC</mark> треугольника <mark>ABC</mark> проходит через вершину <mark>C</mark> и касается прямой <mark>AB</mark> в точке <mark>B</mark>. Найдите диаметр окружности, если <mark>AB</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>)</p>
-<div class="col5" style="height: 36px;">
+<p class="gr">Окружность с центром на стороне <mark>AC</mark> треугольника <mark>ABC</mark> проходит через вершину <mark>C</mark> и касается прямой <mark>AB</mark> в точке <mark>B</mark>. Найдите диаметр окружности, если <mark>AB</mark> = (<mark>...</mark>), <mark>AC</mark> = (<mark>...</mark>)</p>
+<div class="col5">
 <!--250-4 0А90С5--><p><span class="num"><mark>01</mark></span>
 2; 8
 </p>
@@ -488,8 +490,8 @@ mark {background-color: lightgrey; color: black;}
 3; 5
 </p>
 </div>
-<!--GR--><p class="gr">Отрезки <mark>AB</mark> и <mark>CD</mark> являются хордами окружности. Найдите длину хорды <mark>CD</mark>, если <mark>AB</mark> = (<mark>...</mark>), а расстояния от центра окружности до хорд <mark>AB</mark> и <mark>CD</mark> равны соответственно (<mark>...</mark>) и (<mark>...</mark>)</p>
-<div class="col5" style="height: 36px;">
+<p class="gr">Отрезки <mark>AB</mark> и <mark>CD</mark> являются хордами окружности. Найдите длину хорды <mark>CD</mark>, если <mark>AB</mark> = (<mark>...</mark>), а расстояния от центра окружности до хорд <mark>AB</mark> и <mark>CD</mark> равны соответственно (<mark>...</mark>) и (<mark>...</mark>)</p>
+<div class="col5">
 <!--247-1 C96A5C--><p><span class="num"><mark>01</mark></span>
 10; 12; 5
 </p>
@@ -510,8 +512,11 @@ mark {background-color: lightgrey; color: black;}
 12; 8; 6
 </p>
 </div>
-<!--GR--><p class="gr">Отрезки <mark>AB</mark> и <mark>CD</mark> являются хордами окружности. Найдите расстояние от центра окружности до хорды <mark>CD</mark>, если <mark>AB</mark> = (<mark>...</mark>), <mark>CD</mark> = (<mark>...</mark>), а расстояние от центра окружности до хорды <mark>AB</mark> равно (<mark>...</mark>)</p>
-<div class="col5" style="height: 36px;">
+<div style="break-before: column;"></div>
+
+
+<p class="gr">Отрезки <mark>AB</mark> и <mark>CD</mark> являются хордами окружности. Найдите расстояние от центра окружности до хорды <mark>CD</mark>, если <mark>AB</mark> = (<mark>...</mark>), <mark>CD</mark> = (<mark>...</mark>), а расстояние от центра окружности до хорды <mark>AB</mark> равно (<mark>...</mark>)</p>
+<div class="col5">
 <!--237-9 1B191C--><p><span class="num"><mark>01</mark></span>
 40; 42; 21
 </p>
@@ -532,8 +537,8 @@ mark {background-color: lightgrey; color: black;}
 30; 40; 20
 </p>
 </div>
-<!--GR--><p class="gr">Катеты прямоугольного треугольника равны (<mark>...</mark>) и (<mark>...</mark>) Найдите высоту, проведённую к гипотенузе.</p>
-<div class="col5" style="height: 36px;">
+<p class="gr">Катеты прямоугольного треугольника равны (<mark>...</mark>) и (<mark>...</mark>) Найдите высоту, проведённую к гипотенузе.</p>
+<div class="col5">
 <!--263-8 8DCB6C--><p><span class="num"><mark>01</mark></span>
 10; 24
 </p>
@@ -553,11 +558,9 @@ mark {background-color: lightgrey; color: black;}
 <!--256-3 95FF9С--><p><span class="num"><mark>05</mark></span>
 15; 36
 </p>
-<div style="break-before: column;"></div>
 </div>
-
-<!--GR--><p class="gr">Окружность с центром на стороне <mark>AC</mark> треугольника <mark>ABC</mark> проходит через вершину <mark>C</mark> и касается прямой <mark>AB</mark> в точке <mark>B</mark>. Найдите <mark>AC</mark>, если диаметр окружности равен (<mark>...</mark>), а <mark>AB</mark> = (<mark>...</mark>)</p>
-<div class="col5" style="height: 36px;">
+<p class="gr">Окружность с центром на стороне <mark>AC</mark> треугольника <mark>ABC</mark> проходит через вершину <mark>C</mark> и касается прямой <mark>AB</mark> в точке <mark>B</mark>. Найдите <mark>AC</mark>, если диаметр окружности равен (<mark>...</mark>), а <mark>AB</mark> = (<mark>...</mark>)</p>
+<div class="col5">
 <!--260-5 F6CC6F--><p><span class="num"><mark>01</mark></span>
 6,4; 6
 </p>
@@ -578,5 +581,7 @@ mark {background-color: lightgrey; color: black;}
 16; 15
 </p>
 </div>
+
+
 </body>
 </html>
