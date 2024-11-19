@@ -1,20 +1,23 @@
 <!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8" /><script>window.MathJax = {tex: {inlineMath: [['\\(', '\\)']], macros: {frac: ["\\genfrac{}{}{}{}{\\textstyle #1}{\\textstyle #2}", 2]}}, options: {renderActions: { addMenu: [] }}};</script><script src="mathjax/es5/tex-mml-chtml.js"></script><script>MathJax.startup.promise.then(() => {const script = document.createElement('script'); script.src = "https://unpkg.com/pagedjs/dist/paged.polyfill.js"; document.head.appendChild(script);}).catch(() => {});</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
-@font-face {font-family: 'MathJax_Main'; src: url('https://closdelaroche.github.io/MathJax_Main-Regular.OTF') format('opentype');}
+@font-face {font-family: 'MathJax_Main', serif; src: url('https://closdelaroche.github.io/teach/fonts/MathJax_Main-Regular.otf') format('opentype');}
+@page {size: A4; margin: 10mm; margin-bottom: 15mm; /*border: solid green 2px;*/ @bottom-right {content: "огэ. математика. задание №16 стр. " counter(page, decimal-leading-zero); font-family: 'Fira Sans Condensed',sans-serif; font-size: 16px; font-weight: 300;}}
 body {font-family: 'MathJax_Main', serif; font-size:20px;}
 p {display: inline-block; flex-wrap: wrap; box-sizing: border-box; border: 1px solid grey; width: 100%; line-height: 1; margin-bottom: 2px; margin-top: 2px; padding-top: 4px; padding-bottom: 4px; padding-left: 4px; padding-right: 2px;}
 mark {background-color: lightgrey; color: black;}
-img {width: 150px; object-fit: scale-down;}
-@page {size: A4; margin: 10mm; margin-bottom: 15mm; /*border: 1px solid green;*/ /*outline: 1px solid red;*/ @bottom-right {content: "огэ. математика. задание №16 стр. " counter(page, decimal-leading-zero); font-family: 'Fira Sans Condensed',sans-serif; font-size: 16px; font-weight: 300;}}
-.col2 {width: 718px; height: 1028px; column-count: 2; column-gap:3px; /*outline: solid black 2px;*/}
-.gr {hyphens: auto; word-wrap: break-word; text-align: justify;}
 .num {font-size: small; vertical-align: top;}
+.gr {width: 714px; hyphens: auto; word-wrap: break-word; text-align: justify;}
+img {width: 140px; height: 140px; object-fit: scale-down; margin-left: 1px; margin-top: 3px; padding: 10px; outline: dashed grey 1px;}
+.col2 {width: 714px; /*height: 1028px;*/ column-count: 2; column-gap: 3px; /*outline: solid black 2px;*/}
 </style>
 </head>
 <body>
-<!--GR--><p class="gr">группа №0 &mdash; Сторона равностороннего треугольника равна (<mark>...</mark>) Найдите радиус окружности, вписанной в этот треугольник.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/D13EFC84D3368A564238BA1622E5E874/xs3qstsrcD13EFC84D3368A564238BA1622E5E874_1_1485520883.png></p>
+
+
+<p class="gr">Сторона равностороннего треугольника равна (<mark>...</mark>) Найдите радиус окружности, вписанной в этот треугольник.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/D13EFC84D3368A564238BA1622E5E874/xs3qstsrcD13EFC84D3368A564238BA1622E5E874_1_1485520883.png><div style="break-before: column;"></div>
 <!--181-1 F83E67--><p><span class="num"><mark>01</mark></span>
 \(4\sqrt{3}\)
 </p>
@@ -45,9 +48,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--156-9 B04F9A --><p><span class="num"><mark>10</mark></span>
 \(18\sqrt{3}\)
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус окружности, вписанной в равносторонний треугольник, равен (<mark>...</mark>) Найдите длину стороны этого треугольника.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E1DBBF72717C8E494608447B52882202/xs3qstsrcE1DBBF72717C8E494608447B52882202_1_1485520962.png></p>
+</div>
+<p class="gr">Радиус окружности, вписанной в равносторонний треугольник, равен (<mark>...</mark>) Найдите длину стороны этого треугольника.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E1DBBF72717C8E494608447B52882202/xs3qstsrcE1DBBF72717C8E494608447B52882202_1_1485520962.png><div style="break-before: column;"></div>
 <!--195-8 F99836--><p><span class="num"><mark>01</mark></span>
 \(10\sqrt{3}\)
 </p>
@@ -78,9 +82,13 @@ img {width: 150px; object-fit: scale-down;}
 <!--45-5 79607C--><p><span class="num"><mark>10</mark></span>
 \(11\sqrt{3}\)
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Найдите площадь квадрата, описанного около окружности радиуса (<mark>...</mark>)</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/DBEEFE8A636496EF4EC0AABBF1003A76/xs3qstsrcDBEEFE8A636496EF4EC0AABBF1003A76_1_1456232004.png></p>
+
+
+<p class="gr">Найдите площадь квадрата, описанного около окружности радиуса (<mark>...</mark>)</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/DBEEFE8A636496EF4EC0AABBF1003A76/xs3qstsrcDBEEFE8A636496EF4EC0AABBF1003A76_1_1456232004.png><div style="break-before: column;"></div>
 <!--190-3 983363--><p><span class="num"><mark>01</mark></span>
 4
 </p>
@@ -111,9 +119,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--19-5 7732FA--><p><span class="num"><mark>10</mark></span>
 7
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Сторона квадрата равна (<mark>...</mark>) Найдите радиус окружности, вписанной в этот квадрат.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/7CE983F140FC8AB043B3E8201ECECE17/xs3qstsrc7CE983F140FC8AB043B3E8201ECECE17_1_1485516264.png></p>
+</div>
+<p class="gr">Сторона квадрата равна (<mark>...</mark>) Найдите радиус окружности, вписанной в этот квадрат.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/7CE983F140FC8AB043B3E8201ECECE17/xs3qstsrc7CE983F140FC8AB043B3E8201ECECE17_1_1485516264.png><div style="break-before: column;"></div>
 <!--111-7 E5A7D3--><p><span class="num"><mark>01</mark></span>
 6
 </p>
@@ -144,9 +153,33 @@ img {width: 150px; object-fit: scale-down;}
 <!--87-4 FFOC2O--><p><span class="num"><mark>10</mark></span>
 56
 </p>
+</div>
+<p class="gr">Центр окружности, описанной около треугольника <mark>ABC</mark>, лежит на стороне <mark>AB</mark>. Радиус окружности равен (<mark>...</mark>) Найдите <mark>AC</mark>, если <mark>BC</mark> = (<mark>...</mark>)</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/6AD499E601E29BD8412AC17B26CA40CA/xs3qstsrc6AD499E601E29BD8412AC17B26CA40CA_1_1457537177.png>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/CD427E63EFA9B5E446B351244AF02B3B/xs3qstsrcCD427E63EFA9B5E446B351244AF02B3B_1_1457537192.png><div style="break-before: column;"></div>
+<!--128-7 4045А6--><p><span class="num"><mark>01</mark></span>
+13; 24
+</p>
+<!--31-4 7B6202--><p><span class="num"><mark>02</mark></span>
+6,5; 12
+</p>
+<!--96-10 CABA26--><p><span class="num"><mark>03</mark></span>
+25; 48
+</p>
+<!--177-2 6D03EB--><p><span class="num"><mark>04</mark></span>
+14,5; 21
+</p>
+<!--145-2 1845C2--><p><span class="num"><mark>05</mark></span>
+17; 30
+</p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Сторона квадрата равна (<mark>...</mark>) Найдите радиус окружности, описанной около этого квадрата.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E20EB396DC7AB3EA4DD78DC83A490B2C/xs3qstsrcE20EB396DC7AB3EA4DD78DC83A490B2C_1_1487085186.png></p>
+
+
+<p class="gr">Сторона квадрата равна (<mark>...</mark>) Найдите радиус окружности, описанной около этого квадрата.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E20EB396DC7AB3EA4DD78DC83A490B2C/xs3qstsrcE20EB396DC7AB3EA4DD78DC83A490B2C_1_1487085186.png><div style="break-before: column;"></div>
 <!--195-9 093734--><p><span class="num"><mark>01</mark></span>
 \(14\sqrt{2}\)
 </p>
@@ -177,9 +210,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--104-10 1F54D7--><p><span class="num"><mark>10</mark></span>
 \(4\sqrt{2}\)
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус окружности, описанной около квадрата, равен (<mark>...</mark>) Найдите длину стороны этого квадрата.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/7446B39E1B1EAF774F462FBEE2D0DC7D/xs3qstsrc7446B39E1B1EAF774F462FBEE2D0DC7D_1_1485515818.png></p>
+</div>
+<p class="gr">Радиус окружности, описанной около квадрата, равен (<mark>...</mark>) Найдите длину стороны этого квадрата.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/7446B39E1B1EAF774F462FBEE2D0DC7D/xs3qstsrc7446B39E1B1EAF774F462FBEE2D0DC7D_1_1485515818.png><div style="break-before: column;"></div>
 <!--104-4 B927DB--><p><span class="num"><mark>01</mark></span>
 \(14\sqrt{2}\)
 </p>
@@ -210,9 +244,13 @@ img {width: 150px; object-fit: scale-down;}
 <!--97-1 C0C526--><p><span class="num"><mark>10</mark></span>
 \(22\sqrt{2}\)
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус окружности, описанной около равностороннего треугольника, равен (<mark>...</mark>) Найдите длину стороны этого треугольника.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E7C77A142ABC8C3248C6037C54D6A934/xs3qstsrcE7C77A142ABC8C3248C6037C54D6A934_1_1485520302.png></p>
+
+
+<p class="gr">Радиус окружности, описанной около равностороннего треугольника, равен (<mark>...</mark>) Найдите длину стороны этого треугольника.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E7C77A142ABC8C3248C6037C54D6A934/xs3qstsrcE7C77A142ABC8C3248C6037C54D6A934_1_1485520302.png><div style="break-before: column;"></div>
 <!--200-8 DDDC3E--><p><span class="num"><mark>01</mark></span>
 \(3\sqrt{3}\)
 </p>
@@ -243,9 +281,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--79-9 C4F011--><p><span class="num"><mark>10</mark></span>
 \(2\sqrt{3}\)
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Сторона равностороннего треугольника равна (<mark>...</mark>) Найдите радиус окружности, описанной около этого треугольника.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/C001030745CDA4324FA9DD2F201F10E1/xs3qstsrcC001030745CDA4324FA9DD2F201F10E1_1_1485520253.png></p>
+</div>
+<p class="gr">Сторона равностороннего треугольника равна (<mark>...</mark>) Найдите радиус окружности, описанной около этого треугольника.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/C001030745CDA4324FA9DD2F201F10E1/xs3qstsrcC001030745CDA4324FA9DD2F201F10E1_1_1485520253.png><div style="break-before: column;"></div>
 <!--166-3 44F7E4--><p><span class="num"><mark>01</mark></span>
 \(2\sqrt{3}\)
 </p>
@@ -276,9 +315,13 @@ img {width: 150px; object-fit: scale-down;}
 <!--120-4 D1DC53--><p><span class="num"><mark>10</mark></span>
 \(6\sqrt{3}\)
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус вписанной в квадрат окружности равен (<mark>...</mark>) Найдите диагональ этого квадрата.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/EC26535D220E800B4C6FC806B134708E/xs3qstsrcEC26535D220E800B4C6FC806B134708E_1_1485515140.png></p>
+
+
+<p class="gr">Радиус вписанной в квадрат окружности равен (<mark>...</mark>) Найдите диагональ этого квадрата.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/EC26535D220E800B4C6FC806B134708E/xs3qstsrcEC26535D220E800B4C6FC806B134708E_1_1485515140.png><div style="break-before: column;"></div>
 <!--204-3 Е12730--><p><span class="num"><mark>01</mark></span>
 \(10\sqrt{2}\)
 </p>
@@ -306,9 +349,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--70-2 4E821A--><p><span class="num"><mark>09</mark></span>
 \(8\sqrt{2}\)
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Угол <mark>A</mark> трапеции <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark>, вписанной в окружность, равен (<mark>...</mark>) Найдите угол <mark>C</mark> этой трапеции. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/D2EC949AD695932F410B9AC2068CBD71/xs3qstsrcD2EC949AD695932F410B9AC2068CBD71_1_1485519599.png></p>
+</div>
+<p class="gr">Угол <mark>A</mark> трапеции <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark>, вписанной в окружность, равен (<mark>...</mark>) Найдите угол <mark>C</mark> этой трапеции. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/D2EC949AD695932F410B9AC2068CBD71/xs3qstsrcD2EC949AD695932F410B9AC2068CBD71_1_1485519599.png><div style="break-before: column;"></div>
 <!--182-6 0AEB63--><p><span class="num"><mark>01</mark></span>
 \(81^{\circ}\)
 </p>
@@ -336,9 +380,33 @@ img {width: 150px; object-fit: scale-down;}
 <!--18-7 OB2EF1--><p><span class="num"><mark>09</mark></span>
 \(77^{\circ}\)
 </p>
+</div>
+<p class="gr">Центр окружности, описанной около треугольника <mark>ABC</mark>, лежит на стороне <mark>AB</mark>. Радиус окружности равен (<mark>...</mark>) Найдите <mark>BC</mark>, если <mark>AC</mark> = (<mark>...</mark>)</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/DC281B565326B14341F6B7C7D6AF07D6/xs3qstsrcDC281B565326B14341F6B7C7D6AF07D6_1_1457537189.png>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/DC9D36E7AF21BE234D0173FC544CBA9A/xs3qstsrcDC9D36E7AF21BE234D0173FC544CBA9A_1_1457537194.png><div style="break-before: column;"></div>
+<!--175-5 C8A9ED--><p><span class="num"><mark>01</mark></span>
+10; 16
+</p>
+<!--98-6 E7C22E--><p><span class="num"><mark>02</mark></span>
+20; 32
+</p>
+<!--190-6 EF5960--><p><span class="num"><mark>03</mark></span>
+15; 24
+</p>
+<!--190-10 E7626A--><p><span class="num"><mark>04</mark></span>
+20,5; 9
+</p>
+<!--31-7 748A0C--><p><span class="num"><mark>05</mark></span>
+8,5; 8
+</p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Угол <mark>A</mark> трапеции <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark>, вписанной в окружность, равен (<mark>...</mark>) Найдите угол B этой трапеции. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A2EFA32CE4BCAF9C47920FCCE7942FC3/xs3qstsrcA2EFA32CE4BCAF9C47920FCCE7942FC3_1_1485519709.png></p>
+
+
+<p class="gr">Угол <mark>A</mark> трапеции <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark>, вписанной в окружность, равен (<mark>...</mark>) Найдите угол B этой трапеции. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A2EFA32CE4BCAF9C47920FCCE7942FC3/xs3qstsrcA2EFA32CE4BCAF9C47920FCCE7942FC3_1_1485519709.png><div style="break-before: column;"></div>
 <!--142-8 0С87С3--><p><span class="num"><mark>01</mark></span>
 \(31^{\circ}\)
 </p>
@@ -363,9 +431,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--98-1 953423--><p><span class="num"><mark>08</mark></span>
 \(54^{\circ}\)
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус окружности, вписанной в прямоугольную трапецию, равен (<mark>...</mark>) Найдите высоту этой трапеции.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E74F86AF7B14AF0E44782DE50EA93E15/xs3qstsrcE74F86AF7B14AF0E44782DE50EA93E15_1_1487085481.png></p>
+</div>
+<p class="gr">Радиус окружности, вписанной в прямоугольную трапецию, равен (<mark>...</mark>) Найдите высоту этой трапеции.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E74F86AF7B14AF0E44782DE50EA93E15/xs3qstsrcE74F86AF7B14AF0E44782DE50EA93E15_1_1487085481.png><div style="break-before: column;"></div>
 <!--200-2 D5823B--><p><span class="num"><mark>01</mark></span>
 18
 </p>
@@ -396,9 +465,23 @@ img {width: 150px; object-fit: scale-down;}
 <!--99-6 301А24--><p><span class="num"><mark>10</mark></span>
 12
 </p>
+</div>
+<p class="gr">Угол <mark>A</mark> трапеции <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark>, вписанной в окружность, равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>C</mark> этой трапеции. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/C8DF7B917F09A8034C1F3C38AECF85EB/xs3qstsrcC8DF7B917F09A8034C1F3C38AECF85EB_1_1485519624.png><div style="break-before: column;"></div>
+<!--174-3 5D89E6--><p><span class="num"><mark>01</mark></span>
+111
+</p>
+<!--115-1 443158--><p><span class="num"><mark>02</mark></span>
+108
+</p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; В окружности с центром в точке <mark>O</mark> отрезки <mark>AC</mark> и <mark>BD</mark> диаметры. Угол <mark>AOD</mark> равен (<mark>...</mark>) Найдите угол <mark>ACB</mark>. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/6F81243122F9BF15464D39DD9EE7F5D5/xs3qstsrc6F81243122F9BF15464D39DD9EE7F5D5_1_1456296990.png></p>
+
+
+<p class="gr">В окружности с центром в точке <mark>O</mark> отрезки <mark>AC</mark> и <mark>BD</mark> диаметры. Угол <mark>AOD</mark> равен (<mark>...</mark>) Найдите угол <mark>ACB</mark>. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/6F81243122F9BF15464D39DD9EE7F5D5/xs3qstsrc6F81243122F9BF15464D39DD9EE7F5D5_1_1456296990.png><div style="break-before: column;"></div>
 <!--100-9 80FB25--><p><span class="num"><mark>01</mark></span>
 \(124^{\circ}\)
 </p>
@@ -429,9 +512,14 @@ img {width: 150px; object-fit: scale-down;}
 <!--216-1 91D482--><p><span class="num"><mark>10</mark></span>
 \(50^{\circ}\)
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Четырёхугольник <mark>ABCD</mark> описан около окружности, <mark>AB</mark> = (<mark>...</mark>), <mark>BC</mark> = (<mark>...</mark>), <mark>CD</mark> = (<mark>...</mark>) Найдите <mark>AD</mark>.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/D9400F4F307685764E4E5F2A0C28F4D8/xs3qstsrcD9400F4F307685764E4E5F2A0C28F4D8_1_1485523225.png></p>
+</div>
+<!--72-10 78B615--><p class="gr">В треугольнике <mark>ABC</mark> угол <mark>C</mark> равен <mark>45\(^{\circ}\)</mark>, <mark>AB</mark> = <mark>6\(\sqrt{2}\)</mark>. Найдите радиус окружности, описанной около этого треугольника.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/5384FDB407A8AADC4BDB7DDB18AABC3D/xs3qstsrc5384FDB407A8AADC4BDB7DDB18AABC3D_1_1487090979.png>
+</div>
+<p class="gr">Четырёхугольник <mark>ABCD</mark> описан около окружности, <mark>AB</mark> = (<mark>...</mark>), <mark>BC</mark> = (<mark>...</mark>), <mark>CD</mark> = (<mark>...</mark>) Найдите <mark>AD</mark>.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/D9400F4F307685764E4E5F2A0C28F4D8/xs3qstsrcD9400F4F307685764E4E5F2A0C28F4D8_1_1485523225.png><div style="break-before: column;"></div>
 <!--188-1 А4486B--><p><span class="num"><mark>01</mark></span>
 4; 12; 21
 </p>
@@ -462,9 +550,13 @@ img {width: 150px; object-fit: scale-down;}
 <!--69-10 4АВ81B--><p><span class="num"><mark>10</mark></span>
 14; 15; 23
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус окружности, вписанной в равнобедренную трапецию, равен (<mark>...</mark>) Найдите высоту этой трапеции.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/5F8C6BF590B98D3C41D2A22CAEF36CCE/xs3qstsrc5F8C6BF590B98D3C41D2A22CAEF36CCE_1_1487085463.png></p>
+
+
+<p class="gr">Радиус окружности, вписанной в равнобедренную трапецию, равен (<mark>...</mark>) Найдите высоту этой трапеции.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/5F8C6BF590B98D3C41D2A22CAEF36CCE/xs3qstsrc5F8C6BF590B98D3C41D2A22CAEF36CCE_1_1487085463.png><div style="break-before: column;"></div>
 <!--85-9 82E915--><p><span class="num"><mark>01</mark></span>
 20
 </p>
@@ -495,9 +587,10 @@ img {width: 150px; object-fit: scale-down;}
 <!--103-2 03DDD9--><p><span class="num"><mark>10</mark></span>
 30
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Радиус окружности, вписанной в трапецию, равен (<mark>...</mark>) Найдите высоту этой трапеции.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/C318AA2EE935B8674BFB623B71F00C6A/xs3qstsrcC318AA2EE935B8674BFB623B71F00C6A_1_1487085438.png></p>
+</div>
+<p class="gr">Радиус окружности, вписанной в трапецию, равен (<mark>...</mark>) Найдите высоту этой трапеции.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/C318AA2EE935B8674BFB623B71F00C6A/xs3qstsrcC318AA2EE935B8674BFB623B71F00C6A_1_1487085438.png><div style="break-before: column;"></div>
 <!--168-5 7C5CEF--><p><span class="num"><mark>01</mark></span>
 48
 </p>
@@ -528,9 +621,13 @@ img {width: 150px; object-fit: scale-down;}
 <!--86-5 4CC220--><p><span class="num"><mark>10</mark></span>
 32
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Периметр треугольника равен (<mark>...</mark>), одна из сторон равна (<mark>...</mark>), а радиус вписанной в него окружности равен (<mark>...</mark>) Найдите площадь этого треугольника.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A5BC3BC59DFD8E2F4DD10291AC664883/xs3qstsrcA5BC3BC59DFD8E2F4DD10291AC664883_1_1487084875.png></p>
+
+
+<p class="gr">Периметр треугольника равен (<mark>...</mark>), одна из сторон равна (<mark>...</mark>), а радиус вписанной в него окружности равен (<mark>...</mark>) Найдите площадь этого треугольника.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A5BC3BC59DFD8E2F4DD10291AC664883/xs3qstsrcA5BC3BC59DFD8E2F4DD10291AC664883_1_1487084875.png><div style="break-before: column;"></div>
 <!--145-5 17E9С9--><p><span class="num"><mark>01</mark></span>
 140; 56; 9
 </p>
@@ -561,10 +658,11 @@ img {width: 150px; object-fit: scale-down;}
 <!--159-10 A70D9B--><p><span class="num"><mark>10</mark></span>
 110; 38; 10
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Трапеция <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark> описана около окружности, <mark>AB</mark> = (<mark>...</mark>), <mark>BC</mark> = (<mark>...</mark>), <mark>CD</mark> = (<mark>...</mark>) Найдите <mark>AD</mark>.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/3E8AC278D97590B443BF5263F4BA91A6/xs3qstsrc3E8AC278D97590B443BF5263F4BA91A6_1_1485790147.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/48015A33B7D5999B4EBAD396E3C77E1F/xs3qstsrc48015A33B7D5999B4EBAD396E3C77E1F_1_1485790312.png></p>
+</div>
+<p class="gr">Трапеция <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark> описана около окружности, <mark>AB</mark> = (<mark>...</mark>), <mark>BC</mark> = (<mark>...</mark>), <mark>CD</mark> = (<mark>...</mark>) Найдите <mark>AD</mark>.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/3E8AC278D97590B443BF5263F4BA91A6/xs3qstsrc3E8AC278D97590B443BF5263F4BA91A6_1_1485790147.png>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/48015A33B7D5999B4EBAD396E3C77E1F/xs3qstsrc48015A33B7D5999B4EBAD396E3C77E1F_1_1485790312.png><div style="break-before: column;"></div>
 <!--64-5 51FCB4--><p><span class="num"><mark>01</mark></span>
 7; 5; 17
 </p>
@@ -595,48 +693,14 @@ img {width: 150px; object-fit: scale-down;}
 <!--184-4 1C5C6F--><p><span class="num"><mark>10</mark></span>
 11; 5; 13
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Центр окружности, описанной около треугольника <mark>ABC</mark>, лежит на стороне <mark>AB</mark>. Радиус окружности равен (<mark>...</mark>) Найдите <mark>AC</mark>, если <mark>BC</mark> = (<mark>...</mark>)</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/6AD499E601E29BD8412AC17B26CA40CA/xs3qstsrc6AD499E601E29BD8412AC17B26CA40CA_1_1457537177.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/CD427E63EFA9B5E446B351244AF02B3B/xs3qstsrcCD427E63EFA9B5E446B351244AF02B3B_1_1457537192.png></p>
-<!--128-7 4045А6--><p><span class="num"><mark>01</mark></span>
-13; 24
-</p>
-<!--31-4 7B6202--><p><span class="num"><mark>02</mark></span>
-6,5; 12
-</p>
-<!--96-10 CABA26--><p><span class="num"><mark>03</mark></span>
-25; 48
-</p>
-<!--177-2 6D03EB--><p><span class="num"><mark>04</mark></span>
-14,5; 21
-</p>
-<!--145-2 1845C2--><p><span class="num"><mark>05</mark></span>
-17; 30
-</p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Центр окружности, описанной около треугольника <mark>ABC</mark>, лежит на стороне <mark>AB</mark>. Радиус окружности равен (<mark>...</mark>) Найдите <mark>BC</mark>, если <mark>AC</mark> = (<mark>...</mark>)</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/DC281B565326B14341F6B7C7D6AF07D6/xs3qstsrcDC281B565326B14341F6B7C7D6AF07D6_1_1457537189.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/DC9D36E7AF21BE234D0173FC544CBA9A/xs3qstsrcDC9D36E7AF21BE234D0173FC544CBA9A_1_1457537194.png></p>
-<!--175-5 C8A9ED--><p><span class="num"><mark>01</mark></span>
-10; 16
-</p>
-<!--98-6 E7C22E--><p><span class="num"><mark>02</mark></span>
-20; 32
-</p>
-<!--190-6 EF5960--><p><span class="num"><mark>03</mark></span>
-15; 24
-</p>
-<!--190-10 E7626A--><p><span class="num"><mark>04</mark></span>
-20,5; 9
-</p>
-<!--31-7 748A0C--><p><span class="num"><mark>05</mark></span>
-8,5; 8
-</p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Центр окружности, описанной около треугольника <mark>ABC</mark>, лежит на стороне <mark>AB</mark>. Найдите угол <mark>ABC</mark>, если угол <mark>BAC</mark> равен (<mark>...</mark>)\(^{\circ}\). Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/012EC79834179BFC4D6F6979452F41CC/xs3qstsrc012EC79834179BFC4D6F6979452F41CC_1_1456304291.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/995EA170110782D44158431F6C3AF262/xs3qstsrc995EA170110782D44158431F6C3AF262_1_1456304305.png></p>
+
+
+<p class="gr">Центр окружности, описанной около треугольника <mark>ABC</mark>, лежит на стороне <mark>AB</mark>. Найдите угол <mark>ABC</mark>, если угол <mark>BAC</mark> равен (<mark>...</mark>)\(^{\circ}\). Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/012EC79834179BFC4D6F6979452F41CC/xs3qstsrc012EC79834179BFC4D6F6979452F41CC_1_1456304291.png>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/995EA170110782D44158431F6C3AF262/xs3qstsrc995EA170110782D44158431F6C3AF262_1_1456304305.png><div style="break-before: column;"></div>
 <!--1-8 FE3D40--><p><span class="num"><mark>01</mark></span>
 30
 </p>
@@ -667,10 +731,11 @@ img {width: 150px; object-fit: scale-down;}
 <!--11-2 9F8E45--><p><span class="num"><mark>10</mark></span>
 44
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Отрезки <mark>AC</mark> и <mark>BD</mark> - диаметры окружности с центром в точке <mark>O</mark>. Угол <mark>ACB</mark> равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>AOD</mark>. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/550A7376D7C6A8284DCE5289D05AD0FD/xs3qstsrc550A7376D7C6A8284DCE5289D05AD0FD_1_1456298676.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/53BA08B5172AB20445EFD593F5B63258/xs3qstsrc53BA08B5172AB20445EFD593F5B63258_1_1456298685.png></p>
+</div>
+<p class="gr">Отрезки <mark>AC</mark> и <mark>BD</mark> - диаметры окружности с центром в точке <mark>O</mark>. Угол <mark>ACB</mark> равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>AOD</mark>. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/550A7376D7C6A8284DCE5289D05AD0FD/xs3qstsrc550A7376D7C6A8284DCE5289D05AD0FD_1_1456298676.png>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/53BA08B5172AB20445EFD593F5B63258/xs3qstsrc53BA08B5172AB20445EFD593F5B63258_1_1456298685.png><div style="break-before: column;"></div>
 <!--74-10 1DC714--><p><span class="num"><mark>01</mark></span>
 78
 </p>
@@ -701,11 +766,15 @@ img {width: 150px; object-fit: scale-down;}
 <!--73-2 74С519--><p><span class="num"><mark>10</mark></span>
 19
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Угол <mark>A</mark> четырёхугольника <mark>ABCD</mark>, вписанного в окружность, равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>C</mark> этого четырёхугольника. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/53D3955DE5A49CF74A0DFB39CFB7930E/xs3qstsrc53D3955DE5A49CF74A0DFB39CFB7930E_1_1485519047.png>
+
+
+<p class="gr">Угол <mark>A</mark> четырёхугольника <mark>ABCD</mark>, вписанного в окружность, равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>C</mark> этого четырёхугольника. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/53D3955DE5A49CF74A0DFB39CFB7930E/xs3qstsrc53D3955DE5A49CF74A0DFB39CFB7930E_1_1485519047.png>
 <img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/634CC81210AA84224A2020F96C680B1E/xs3qstsrc634CC81210AA84224A2020F96C680B1E_1_1485519018.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/33868CA3EA6AB20547463BD4CF4537CA/xs3qstsrc33868CA3EA6AB20547463BD4CF4537CA_1_1485519029.png></p>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/33868CA3EA6AB20547463BD4CF4537CA/xs3qstsrc33868CA3EA6AB20547463BD4CF4537CA_1_1485519029.png><div style="break-before: column;"></div>
 <!--28-6 39B2FC--><p><span class="num"><mark>01</mark></span>
 48
 </p>
@@ -736,20 +805,12 @@ img {width: 150px; object-fit: scale-down;}
 <!--107-5 DD88DC--><p><span class="num"><mark>10</mark></span>
 33
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Угол <mark>A</mark> трапеции <mark>ABCD</mark> с основаниями <mark>AD</mark> и <mark>BC</mark>, вписанной в окружность, равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>C</mark> этой трапеции. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/C8DF7B917F09A8034C1F3C38AECF85EB/xs3qstsrcC8DF7B917F09A8034C1F3C38AECF85EB_1_1485519624.png></p>
-<!--174-3 5D89E6--><p><span class="num"><mark>01</mark></span>
-111
-</p>
-<!--115-1 443158--><p><span class="num"><mark>02</mark></span>
-108
-</p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Четырёхугольник <mark>ABCD</mark> вписан в окружность. Угол <mark>ABC</mark> равен (<mark>...</mark>)\(^{\circ}\), угол <mark>CAD</mark> равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>ABD</mark>. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E5CE4B347386BFDE48DA22F8D5379E34/xs3qstsrcE5CE4B347386BFDE48DA22F8D5379E34_1_1456237420.png>
+</div>
+<p class="gr">Четырёхугольник <mark>ABCD</mark> вписан в окружность. Угол <mark>ABC</mark> равен (<mark>...</mark>)\(^{\circ}\), угол <mark>CAD</mark> равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>ABD</mark>. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/E5CE4B347386BFDE48DA22F8D5379E34/xs3qstsrcE5CE4B347386BFDE48DA22F8D5379E34_1_1456237420.png>
 <img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/049FC206D0C8806D46815DACEAFFDF11/xs3qstsrc049FC206D0C8806D46815DACEAFFDF11_1_1456237436.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/29ABFF4DE1F19C184DB0393066D59405/xs3qstsrc29ABFF4DE1F19C184DB0393066D59405_1_1456237428.png></p>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/29ABFF4DE1F19C184DB0393066D59405/xs3qstsrc29ABFF4DE1F19C184DB0393066D59405_1_1456237428.png><div style="break-before: column;"></div>
 <!--198-10 1В393Е--><p><span class="num"><mark>01</mark></span>
 112; 70
 </p>
@@ -780,11 +841,15 @@ img {width: 150px; object-fit: scale-down;}
 <!--178-2 3739E9--><p><span class="num"><mark>10</mark></span>
 56; 42
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Четырёхугольник <mark>ABCD</mark> вписан в окружность. Угол <mark>ABD</mark> равен (<mark>...</mark>)\(^{\circ}\), угол <mark>CAD</mark> равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>ABC</mark>. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/0E7054481E9392674B104E9F91573D3B/xs3qstsrc0E7054481E9392674B104E9F91573D3B_1_1457536754.png>
+
+
+<p class="gr">Четырёхугольник <mark>ABCD</mark> вписан в окружность. Угол <mark>ABD</mark> равен (<mark>...</mark>)\(^{\circ}\), угол <mark>CAD</mark> равен (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>ABC</mark>. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/0E7054481E9392674B104E9F91573D3B/xs3qstsrc0E7054481E9392674B104E9F91573D3B_1_1457536754.png>
 <img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/F1AF1427B9398A3D49B308AE46AA98BD/xs3qstsrcF1AF1427B9398A3D49B308AE46AA98BD_1_1456238031.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/F0937B62D98AACFD434AC3AD3EACACB0/xs3qstsrcF0937B62D98AACFD434AC3AD3EACACB0_1_1456238037.png></p>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/F0937B62D98AACFD434AC3AD3EACACB0/xs3qstsrcF0937B62D98AACFD434AC3AD3EACACB0_1_1456238037.png><div style="break-before: column;"></div>
 <!--13-10 314B4D--><p><span class="num"><mark>01</mark></span>
 51; 42
 </p>
@@ -815,12 +880,13 @@ img {width: 150px; object-fit: scale-down;}
 <!--207-9 4D798A--><p><span class="num"><mark>10</mark></span>
 16; 32
 </p>
-<div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; Треугольник <mark>ABC</mark> вписан в окружность с центром в точке <mark>O</mark>. Точки <mark>O</mark> и <mark>C</mark> лежат в одной полуплоскости относительно прямой <mark>AB</mark>. Найдите угол <mark>ACB</mark>, если угол <mark>AOB</mark> равен (<mark>...</mark>)\(^{\circ}\). Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/421B46576BDDA1954FCBB14C02A2C627/xs3qstsrc421B46576BDDA1954FCBB14C02A2C627_1_1456293244.png>
+</div>
+<p class="gr">Треугольник <mark>ABC</mark> вписан в окружность с центром в точке <mark>O</mark>. Точки <mark>O</mark> и <mark>C</mark> лежат в одной полуплоскости относительно прямой <mark>AB</mark>. Найдите угол <mark>ACB</mark>, если угол <mark>AOB</mark> равен (<mark>...</mark>)\(^{\circ}\). Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/421B46576BDDA1954FCBB14C02A2C627/xs3qstsrc421B46576BDDA1954FCBB14C02A2C627_1_1456293244.png>
 <img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/46042F95DE7AA3094F04FC7555733FF5/xs3qstsrc46042F95DE7AA3094F04FC7555733FF5_1_1456293260.png>
 <img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/F7C2276F287BAFA1409FF3E9E01F2908/xs3qstsrcF7C2276F287BAFA1409FF3E9E01F2908_1_1456293250.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/F607088E2C15A88147959AEDBA00B6E4/xs3qstsrcF607088E2C15A88147959AEDBA00B6E4_1_1456293234.png></p>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/F607088E2C15A88147959AEDBA00B6E4/xs3qstsrcF607088E2C15A88147959AEDBA00B6E4_1_1456293234.png><div style="break-before: column;"></div>
 <!--59-6 0B92BF--><p><span class="num"><mark>01</mark></span>
 67
 </p>
@@ -848,10 +914,14 @@ img {width: 150px; object-fit: scale-down;}
 <!--211-7 24D584--><p><span class="num"><mark>09</mark></span>
 27
 </p>
+</div>
 <div style="break-before: column;"></div>
-<!--GR--><p class="gr">группа №0 &mdash; На окружности по разные стороны от диаметра <mark>AB</mark> взяты точки <mark>M</mark> и <mark>N</mark>. Известно, что <mark>\(\angle\)NBA</mark> = (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>NMB</mark>. Ответ дайте в градусах.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A8547DB7EDC2A6E3425EF08C0EC5D16E/xs3qstsrcA8547DB7EDC2A6E3425EF08C0EC5D16E_1_1456218048.png>
-<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A1CDEF855C8EA2134BC611103744F0CA/xs3qstsrcA1CDEF855C8EA2134BC611103744F0CA_1_1456218037.png></p>
+
+
+<p class="gr">На окружности по разные стороны от диаметра <mark>AB</mark> взяты точки <mark>M</mark> и <mark>N</mark>. Известно, что <mark>\(\angle\)NBA</mark> = (<mark>...</mark>)\(^{\circ}\). Найдите угол <mark>NMB</mark>. Ответ дайте в градусах.</p>
+<div class="col2">
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A8547DB7EDC2A6E3425EF08C0EC5D16E/xs3qstsrcA8547DB7EDC2A6E3425EF08C0EC5D16E_1_1456218048.png>
+<img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/A1CDEF855C8EA2134BC611103744F0CA/xs3qstsrcA1CDEF855C8EA2134BC611103744F0CA_1_1456218037.png><div style="break-before: column;"></div>
 <!--146-9 5DB6C1--><p><span class="num"><mark>01</mark></span>
 68
 </p>
@@ -882,8 +952,8 @@ img {width: 150px; object-fit: scale-down;}
 <!--141-9 F368CE--><p><span class="num"><mark>10</mark></span>
 34
 </p>
-<div style="break-before: column;"></div>
-<!--72-10 78B615--><p class="gr">группа №0 &mdash; В треугольнике <mark>ABC</mark> угол <mark>C</mark> равен <mark>45\(^{\circ}\)</mark>, <mark>AB</mark> = <mark>6\(\sqrt{2}\)</mark>. Найдите радиус окружности, описанной около этого треугольника.</p>
-<p><img src=https://oge.fipi.ru/docs/DE0E276E497AB3784C3FC4CC20248DC0/questions/5384FDB407A8AADC4BDB7DDB18AABC3D/xs3qstsrc5384FDB407A8AADC4BDB7DDB18AABC3D_1_1487090979.png></p>
+</div>
+
+
 </body>
 </html>
